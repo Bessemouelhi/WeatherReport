@@ -15,6 +15,14 @@
 		18C0255F1E9B835B00899629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C0255D1E9B835B00899629 /* LaunchScreen.storyboard */; };
 		18C0256A1E9B835B00899629 /* WeatherReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C025691E9B835B00899629 /* WeatherReportTests.swift */; };
 		18C025751E9B835B00899629 /* WeatherReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C025741E9B835B00899629 /* WeatherReportUITests.swift */; };
+		18C025841E9B897100899629 /* Alamofire in Resources */ = {isa = PBXBuildFile; fileRef = 18C025831E9B897100899629 /* Alamofire */; };
+		18C025A01E9B8B0F00899629 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C025911E9B8AF600899629 /* Alamofire.framework */; };
+		18C025A21E9B8B2800899629 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18C025911E9B8AF600899629 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18C025A71E9B8B8200899629 /* SwiftyJSON in Resources */ = {isa = PBXBuildFile; fileRef = 18C025A61E9B8B8200899629 /* SwiftyJSON */; };
+		18C025DC1E9B8BE900899629 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C025CD1E9B8BC900899629 /* SwiftyJSON.framework */; };
+		18C025DD1E9B8BFB00899629 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18C025CD1E9B8BC900899629 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18C37FAE1E9CDE7D00627087 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C37FAD1E9CDE7D00627087 /* MapKit.framework */; };
+		18C37FBE1E9CF2F400627087 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C37FBD1E9CF2F400627087 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +40,141 @@
 			remoteGlobalIDString = 18C0254D1E9B835B00899629;
 			remoteInfo = WeatherReport;
 		};
+		18C025901E9B8AF600899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025851E9B8AF600899629 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		18C025921E9B8AF600899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025851E9B8AF600899629 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		18C025941E9B8AF600899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025851E9B8AF600899629 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		18C025961E9B8AF600899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025851E9B8AF600899629 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		18C025981E9B8AF600899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025851E9B8AF600899629 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		18C0259A1E9B8AF600899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025851E9B8AF600899629 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		18C0259C1E9B8AF600899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025851E9B8AF600899629 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		18C0259E1E9B8B0400899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025851E9B8AF600899629 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		18C025A31E9B8B2800899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025851E9B8AF600899629 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		18C025CC1E9B8BC900899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		18C025CE1E9B8BC900899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = "SwiftyJSON iOS Tests";
+		};
+		18C025D01E9B8BC900899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX";
+		};
+		18C025D21E9B8BC900899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX Tests";
+		};
+		18C025D41E9B8BC900899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
+			remoteInfo = "SwiftyJSON watchOS";
+		};
+		18C025D61E9B8BC900899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7236B4F61BAC14150020529B;
+			remoteInfo = "SwiftyJSON tvOS";
+		};
+		18C025D81E9B8BC900899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8580F741BCF5C5B00DA927B;
+			remoteInfo = "SwiftyJSON tvOS Tests";
+		};
+		18C025DA1E9B8BDC00899629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18C025A51E9B8B2900899629 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				18C025DD1E9B8BFB00899629 /* SwiftyJSON.framework in Embed Frameworks */,
+				18C025A21E9B8B2800899629 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		18C0254E1E9B835B00899629 /* WeatherReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +191,12 @@
 		18C025701E9B835B00899629 /* WeatherReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C025741E9B835B00899629 /* WeatherReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReportUITests.swift; sourceTree = "<group>"; };
 		18C025761E9B835B00899629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C025831E9B897100899629 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Alamofire; sourceTree = "<group>"; };
+		18C025851E9B8AF600899629 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		18C025A61E9B8B8200899629 /* SwiftyJSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftyJSON; path = ../../../Downloads/SwiftyJSON; sourceTree = "<group>"; };
+		18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = ../../../Downloads/SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
+		18C37FAD1E9CDE7D00627087 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18C37FBD1E9CF2F400627087 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +204,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C37FBE1E9CF2F400627087 /* CoreLocation.framework in Frameworks */,
+				18C025DC1E9B8BE900899629 /* SwiftyJSON.framework in Frameworks */,
+				18C37FAE1E9CDE7D00627087 /* MapKit.framework in Frameworks */,
+				18C025A01E9B8B0F00899629 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +231,14 @@
 		18C025451E9B835B00899629 = {
 			isa = PBXGroup;
 			children = (
+				18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */,
+				18C025851E9B8AF600899629 /* Alamofire.xcodeproj */,
+				18C025821E9B893900899629 /* Library */,
 				18C025501E9B835B00899629 /* WeatherReport */,
 				18C025681E9B835B00899629 /* WeatherReportTests */,
 				18C025731E9B835B00899629 /* WeatherReportUITests */,
 				18C0254F1E9B835B00899629 /* Products */,
+				18C37FAC1E9CDE7D00627087 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +284,52 @@
 			path = WeatherReportUITests;
 			sourceTree = "<group>";
 		};
+		18C025821E9B893900899629 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				18C025A61E9B8B8200899629 /* SwiftyJSON */,
+				18C025831E9B897100899629 /* Alamofire */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		18C025861E9B8AF600899629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C025911E9B8AF600899629 /* Alamofire.framework */,
+				18C025931E9B8AF600899629 /* Alamofire iOS Tests.xctest */,
+				18C025951E9B8AF600899629 /* Alamofire.framework */,
+				18C025971E9B8AF600899629 /* Alamofire macOS Tests.xctest */,
+				18C025991E9B8AF600899629 /* Alamofire.framework */,
+				18C0259B1E9B8AF600899629 /* Alamofire tvOS Tests.xctest */,
+				18C0259D1E9B8AF600899629 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C025C21E9B8BC900899629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C025CD1E9B8BC900899629 /* SwiftyJSON.framework */,
+				18C025CF1E9B8BC900899629 /* SwiftyJSON iOS Tests.xctest */,
+				18C025D11E9B8BC900899629 /* SwiftyJSON.framework */,
+				18C025D31E9B8BC900899629 /* SwiftyJSON OSX Tests.xctest */,
+				18C025D51E9B8BC900899629 /* SwiftyJSON.framework */,
+				18C025D71E9B8BC900899629 /* SwiftyJSON.framework */,
+				18C025D91E9B8BC900899629 /* SwiftyJSON tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C37FAC1E9CDE7D00627087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C37FBD1E9CF2F400627087 /* CoreLocation.framework */,
+				18C37FAD1E9CDE7D00627087 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +340,14 @@
 				18C0254A1E9B835B00899629 /* Sources */,
 				18C0254B1E9B835B00899629 /* Frameworks */,
 				18C0254C1E9B835B00899629 /* Resources */,
+				18C025A51E9B8B2900899629 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				18C025DB1E9B8BDC00899629 /* PBXTargetDependency */,
+				18C0259F1E9B8B0400899629 /* PBXTargetDependency */,
+				18C025A41E9B8B2800899629 /* PBXTargetDependency */,
 			);
 			name = WeatherReport;
 			productName = WeatherReport;
@@ -197,6 +403,11 @@
 					18C0254D1E9B835B00899629 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					18C025641E9B835B00899629 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -221,6 +432,16 @@
 			mainGroup = 18C025451E9B835B00899629;
 			productRefGroup = 18C0254F1E9B835B00899629 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 18C025861E9B8AF600899629 /* Products */;
+					ProjectRef = 18C025851E9B8AF600899629 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 18C025C21E9B8BC900899629 /* Products */;
+					ProjectRef = 18C025C11E9B8BC900899629 /* SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				18C0254D1E9B835B00899629 /* WeatherReport */,
@@ -230,12 +451,115 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		18C025911E9B8AF600899629 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 18C025901E9B8AF600899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025931E9B8AF600899629 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 18C025921E9B8AF600899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025951E9B8AF600899629 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 18C025941E9B8AF600899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025971E9B8AF600899629 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 18C025961E9B8AF600899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025991E9B8AF600899629 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 18C025981E9B8AF600899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C0259B1E9B8AF600899629 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 18C0259A1E9B8AF600899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C0259D1E9B8AF600899629 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 18C0259C1E9B8AF600899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025CD1E9B8BC900899629 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 18C025CC1E9B8BC900899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025CF1E9B8BC900899629 /* SwiftyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON iOS Tests.xctest";
+			remoteRef = 18C025CE1E9B8BC900899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025D11E9B8BC900899629 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 18C025D01E9B8BC900899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025D31E9B8BC900899629 /* SwiftyJSON OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON OSX Tests.xctest";
+			remoteRef = 18C025D21E9B8BC900899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025D51E9B8BC900899629 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 18C025D41E9B8BC900899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025D71E9B8BC900899629 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 18C025D61E9B8BC900899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		18C025D91E9B8BC900899629 /* SwiftyJSON tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON tvOS Tests.xctest";
+			remoteRef = 18C025D81E9B8BC900899629 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		18C0254C1E9B835B00899629 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C025A71E9B8B8200899629 /* SwiftyJSON in Resources */,
 				18C0255F1E9B835B00899629 /* LaunchScreen.storyboard in Resources */,
+				18C025841E9B897100899629 /* Alamofire in Resources */,
 				18C0255C1E9B835B00899629 /* Assets.xcassets in Resources */,
 				18C025571E9B835B00899629 /* Main.storyboard in Resources */,
 			);
@@ -296,6 +620,21 @@
 			isa = PBXTargetDependency;
 			target = 18C0254D1E9B835B00899629 /* WeatherReport */;
 			targetProxy = 18C025711E9B835B00899629 /* PBXContainerItemProxy */;
+		};
+		18C0259F1E9B8B0400899629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 18C0259E1E9B8B0400899629 /* PBXContainerItemProxy */;
+		};
+		18C025A41E9B8B2800899629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 18C025A31E9B8B2800899629 /* PBXContainerItemProxy */;
+		};
+		18C025DB1E9B8BDC00899629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON iOS";
+			targetProxy = 18C025DA1E9B8BDC00899629 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,6 +754,7 @@
 		18C0257A1E9B835B00899629 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeatherReport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -427,6 +767,7 @@
 		18C0257B1E9B835B00899629 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeatherReport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -509,6 +850,7 @@
 				18C0257B1E9B835B00899629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C0257C1E9B835B00899629 /* Build configuration list for PBXNativeTarget "WeatherReportTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +859,7 @@
 				18C0257E1E9B835B00899629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C0257F1E9B835B00899629 /* Build configuration list for PBXNativeTarget "WeatherReportUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +868,7 @@
 				18C025811E9B835B00899629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
